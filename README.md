@@ -1,12 +1,12 @@
 # Flat-Top Sampling
 ## Aim:
 To write a Python program for the Construction and Reconctruction of Flat-Top Sampleing.
-# Tools required:
+## Tools required:
 * Python: A versatile programming language used for scientific computing and signal processing.
 *  NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations.
 * Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 
-# Program
+## Program:
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -78,11 +78,13 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
-# Output Waveform
+## Output Waveform:
 ![image](https://github.com/user-attachments/assets/307feb27-3305-4314-8a10-3d51896de203)
 
-# Results
+## Results:
 Flat Top Sampling was successfully simulated using a pulse train to sample a continuous-time message signal.
 The sampled waveform retained the amplitude of the original signal at discrete intervals with flat tops.
 The output waveform confirms accurate flat-top representation of the message signal samples.
-# Hardware experiment output waveform.
+## Hardware experiment output waveform:
+![WhatsApp Image 2025-05-05 at 08 09 49_2a7e9104](https://github.com/user-attachments/assets/439b2b94-758c-4404-a2c2-59270d040c9a)
+
